@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+      function getUrlParam(name) {
+        if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(window.location.search))
+          return decodeURIComponent(name[1]);
+      }
+    </script>
+
     <style>
       html, body, #map_canvas { margin: 0; padding: 0; height: 100%; }
     </style>
@@ -33,7 +40,7 @@
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1],coords[0]);
           var name = results.features[i].geometry.stars;
-          var image = "markers/green_MarkerY.png"
+          var image = "markers/" + getUrlParam("color") + "_Marker" + getUrlParam("letter") + ".png"
           var marker = new google.maps.Marker({
             position: latLng,
             map: map,
