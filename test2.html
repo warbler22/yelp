@@ -23,7 +23,6 @@
         var script = document.createElement('script');
         // (In this example we use a locally stored copy instead.)
         //script.src = 'http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/week';
-        //script.src = 'earthquake_GeoJSONP';
         //script.src = 'Earthquake';
         script.src = 'yelp_all';
         document.getElementsByTagName('head')[0].appendChild(script);
@@ -35,11 +34,12 @@
         for (var i = 0; i < results.features.length; i++) {
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1],coords[0]);
-          //var image = "images2.jpeg"
+          var image = "markers/purple_MarkerY.png"
           var marker = new google.maps.Marker({
             position: latLng,
             map: map,
-            //icon: image
+            icon: image,
+            title: "Hello"
             
           });
         }
