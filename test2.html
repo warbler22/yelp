@@ -21,9 +21,7 @@
 
         // Create a <script> tag and set the USGS URL as the source.
         var script = document.createElement('script');
-        // (In this example we use a locally stored copy instead.)
         //script.src = 'http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/week';
-        //script.src = 'Earthquake';
         script.src = 'yelp_all';
         document.getElementsByTagName('head')[0].appendChild(script);
       }
@@ -34,12 +32,14 @@
         for (var i = 0; i < results.features.length; i++) {
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1],coords[0]);
-          var image = "markers/purple_MarkerY.png"
+          var name = results.features[i].geometry.stars;
+          var image = "markers/green_MarkerY.png"
           var marker = new google.maps.Marker({
             position: latLng,
             map: map,
             icon: image,
-            title: "Hello"
+            //business name to display on hover over marker
+            title: name
             
           });
         }
