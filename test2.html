@@ -37,17 +37,30 @@
       // set of coordinates.
       window.eqfeed_callback = function(results) {
         for (var i = 0; i < results.features.length; i++) {
+          
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1],coords[0]);
-          var name = results.features[i].geometry.stars;
-          var image = "markers/" + getUrlParam("color") + "_Marker" + getUrlParam("letter") + ".png"
-          var marker = new google.maps.Marker({
+          if(results.features[i].geometry.stars == " 1 ")
+          {
+            var image = "markers/" + getUrlParam("color") + "_Marker" + getUrlParam("letter") + ".png"
+          
+          }
+          else if (results.features[i].geometry.stars == " 5 ")
+          {
+            var image = "markers/green_MarkerY.png";
+          }
+          else
+          {
+            var image = "markers/yellow_MarkerY.png";
+          }
+            var name = results.features[i].geometry.stars;
+            var marker = new google.maps.Marker({
+
             position: latLng,
             map: map,
-            icon: image,
+            icon: image
             //business name to display on hover over marker
-            title: name
-            
+            //title: name
           });
         }
       }
