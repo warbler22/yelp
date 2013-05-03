@@ -1,10 +1,41 @@
 <html>
-	<body>
+	<head>
+		<script>
+			function reloadMap() {
+				var extra_options = "";
+				extra_options += (document.forms["map_options"]["5star"].checked ? "&5star=" : "");
+				extra_options += (document.forms["map_options"]["1star"].checked ? "&1star=" : "");
+				document.getElementById("map_frame").src = "test2.html?color=orange&letter=M" + extra_options;
+    			return false;
+			}
+		</script>
+	</head>
+	<body onload="reloadMap()">
 		<h1>Yelp Map</h1>
-		 <iframe height="400px" width="100%" frameBorder="0" scrolling="no"
-			src="test2.html">
-		</iframe>
+		<iframe id="map_frame" height="400px" width="100%" frameBorder="0" scrolling="no"></iframe>
 		<h3>Options</h3>
-		<div>Checkboxes go here.</div>
+		<form name="map_options" onsubmit="return reloadMap();">
+			<div><input type="checkbox" name="5star" checked>5 star</div>
+			<div><input type="checkbox" name="1star" checked>1 star</div>
+			<ul>
+				<li>
+					<input type="checkbox" name="Active Life" value="activelife">Active Life:
+					<ul>
+						<li><input type="checkbox" name="Diving" value="diving">Diving</li>
+						<li><input type="checkbox" name="Skating" value="skating">Skating</li>
+					</ul>
+				</li>
+				<li><input type="checkbox" name="Pets" value="pets">Pets</li>
+				<li>
+					<input type="checkbox" name="Restaurants" value="restaurants">Restaurants:
+					<ul>
+						<li><input type="checkbox" name="Mexican" value="mexican">Mexican</li>
+						<li><input type="checkbox" name="Indian" value="indian">Indian</li>
+						<li><input type="checkbox" name="Italian" value="italian">Italian</li>
+					</ul>
+				</li>
+			</ul>
+			<div><input type="submit" value="Submit"></div>
+		</form>
 	<body>
 </html>
