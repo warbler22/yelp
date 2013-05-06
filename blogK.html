@@ -7,15 +7,8 @@
   
   
   <script>
-			function reloadMap() {
-				var extra_options = "";
-				extra_options += (document.forms["map_options"]["5star"].checked ? "&5star=" : "");
-				extra_options += (document.forms["map_options"]["1star"].checked ? "&1star=" : "");
-				document.getElementById("map_frame").src = "outlier_reviews_map.html?color=orange&letter=M" + extra_options;
-    			return false;
-			}
 		</script>
-</head><body style="color: rgb(0, 0, 0); background-color: silver;" onload="reloadMap()" alink="#000099" link="#000099" vlink="#990099">
+</head><body style="color: rgb(0, 0, 0); background-color: silver;" alink="#000099" link="#000099" vlink="#990099">
 <div style="text-align: center; font-family: Book Antiqua;"><big><big><big><span style="color: rgb(204, 0, 0);"><br>
 <big style="color: rgb(255, 102, 0);"><big><font style="color: rgb(0, 153, 0);" size="+3"><big><big><span style="font-weight: bold;">Project Git-Y</span></big></big></font></big></big></span></big></big></big><br>
 </div>
@@ -38,7 +31,7 @@ the quirky outlying reviews.<br>
         <tbody>
           <tr>
             <td style="vertical-align: top; width: 30%;">
-            <form name="map_options" onsubmit="return reloadMap();">
+            <form name="map_options" action="outlier_reviews_map.html" method="post" target="outlier_reviews_map_iframe">
               <ul>
                 <li><input name="1star" checked="checked" type="checkbox">1
 star</li>
@@ -79,7 +72,7 @@ Government</li>
             </form>
             </td>
             <td style="vertical-align: top; text-align: center;"><br>
-            <iframe id="map_frame" frameborder="0" height="600" scrolling="no" width="100%"></iframe> </td>
+            <iframe name="outlier_reviews_map_iframe" frameborder="0" height="600" scrolling="no" width="100%" src="outlier_reviews_map.html"></iframe> </td>
           </tr>
         </tbody>
       </table>
