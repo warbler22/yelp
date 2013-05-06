@@ -11,7 +11,7 @@
 				var extra_options = "";
 				extra_options += (document.forms["map_options"]["5star"].checked ? "&5star=" : "");
 				extra_options += (document.forms["map_options"]["1star"].checked ? "&1star=" : "");
-				document.getElementById("map_frame").src = "test2.html?color=orange&letter=M" + extra_options;
+				document.getElementById("map_frame").src = "outlier_reviews_map.html?color=orange&letter=M" + extra_options;
     			return false;
 			}
 		</script>
@@ -30,18 +30,14 @@ the quirky outlying reviews.<br>
       <br>
       <div style="text-align: center;"><a href="histogram_dates.png"><img style="border: 0px solid ; width: 600px; height: 600px;" alt="hist" src="histogram_dates.png"></a><br>
       <br>
-<br>
+      <br>
       </div>
-      
       <hr style="width: 100%; height: 2px;">
       <h1 style="text-align: center;">Map</h1>
-
-      
       <table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="30" cellspacing="15">
         <tbody>
           <tr>
             <td style="vertical-align: top; width: 30%;">
-            
             <form name="map_options" onsubmit="return reloadMap();">
               <ul>
                 <li><input name="1star" checked="checked" type="checkbox">1
