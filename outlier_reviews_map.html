@@ -32,6 +32,19 @@
 				document.getElementsByTagName('head')[0].appendChild(script);
 			}
 
+
+			function addInfoWindow(marker, message) {
+            var info = message;
+
+            var infoWindow = new google.maps.InfoWindow({
+                content: message
+            });
+
+            google.maps.event.addListener(marker, 'click', function () {
+                infoWindow.open(map, marker);
+            });
+        }
+
 			// Loop through the results array and place a marker for each
 			// set of coordinates.
 			window.eqfeed_callback = function(results) {
@@ -56,6 +69,8 @@
 						{
 							var image = "markers/pink_MarkerR.png";
 						}
+
+
 						var marker = new google.maps.Marker({
 							position: latLng,
 							map: map,
@@ -65,6 +80,8 @@
 								+ "Outlier Review Stars: " + results.features[i].geometry.review_stars + "\n-----\n\n"
 								+ results.features[i].geometry.review_text
 						});
+
+						addInfoWindow(marker, results.features[i].geometry.review_text);
 					}
 				}
 			}
