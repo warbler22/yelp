@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>blogK</title>
+
+  
+  
+  <script>
+			function reloadMap() {
+				var extra_options = "";
+				extra_options += (document.forms["map_options"]["5star"].checked ? "&5star=" : "");
+				extra_options += (document.forms["map_options"]["1star"].checked ? "&1star=" : "");
+				document.getElementById("map_frame").src = "test2.html?color=orange&letter=M" + extra_options;
+    			return false;
+			}
+		</script>
+</head><body style="color: rgb(0, 0, 0); background-color: rgb(153, 153, 153);" onload="reloadMap()" alink="#000099" link="#000099" vlink="#990099">
+<div style="text-align: center; font-family: Book Antiqua;"><big><big><big><span style="color: rgb(204, 0, 0);"><br>
+<font style="color: black;" size="+3"><span style="font-weight: bold;">Project Git-Y</span></font></span></big></big></big><br>
+</div>
+
+<table style="text-align: left; width: 85%; height: 85%; margin-left: auto; margin-right: auto; font-family: Book Antiqua;" border="0" cellpadding="30" cellspacing="15">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(224, 224, 224); height: 80%; width: 80%;"><br>
+This project presents a fresh perspective on Yelp reviews, especially
+the quirky outlying reviews.<br>
+      <br>
+      <div style="text-align: center;"><a href="histogram_dates.png"><img style="border: 0px solid ; width: 600px; height: 600px;" alt="hist" src="histogram_dates.png"></a><br>
+      <br>
+<br>
+      </div>
+      
+      <hr style="width: 100%; height: 2px;">
+      <h1 style="text-align: center;">Map</h1>
+
+      
+      <table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="30" cellspacing="15">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top; width: 30%;">
+            
+            <form name="map_options" onsubmit="return reloadMap();">
+              <ul>
+                <li><input name="1star" checked="checked" type="checkbox">1
+star</li>
+                <li><input name="2star" type="checkbox">2 star</li>
+                <li><input name="3star" type="checkbox">3 star</li>
+                <li><input name="4star" type="checkbox">4 star</li>
+                <li><input name="5star" checked="checked" type="checkbox">5
+star</li>
+              </ul>
+              <ul>
+                <li><input name="Restaurants" value="restaurants" type="checkbox">Restaurants</li>
+                <li><input name="Active Life" value="active" type="checkbox">Active
+Life</li>
+                <li><input name="Arts &amp; Entertainment" value="arts" type="checkbox">Arts &amp; Entertainment</li>
+                <li><input name="Automotive" value="auto" type="checkbox">Automotive</li>
+                <li><input name="Beauty &amp; Spas" value="beautysvc" type="checkbox">Beauty &amp; Spas</li>
+                <li><input name="Education" value="education" type="checkbox">Education</li>
+                <li><input name="Event Planning &amp; Services" value="eventservices" type="checkbox">Event Planning &amp; Services</li>
+                <li><input name="Financial Services" value="financialservices" type="checkbox">Financial Services</li>
+                <li><input name="Food" value="food" type="checkbox">Food</li>
+                <li><input name="Health &amp; Medical" value="health" type="checkbox">Health &amp; Medical</li>
+                <li><input name="Home Services" value="homeservices" type="checkbox">Home Services</li>
+                <li><input name="Hotels &amp; Travel" value="hotelstravel" type="checkbox">Hotels &amp; Travel</li>
+                <li><input name="Local Flavor" value="localflavor" type="checkbox">Local Flavor</li>
+                <li><input name="Local Services" value="localservices" type="checkbox">Local Services</li>
+                <li><input name="Mass Media" value="massmedia" type="checkbox">Mass
+Media</li>
+                <li><input name="Nightlife" value="nightlife" type="checkbox">Nightlife</li>
+                <li><input name="Pets" value="pets" type="checkbox">Pets</li>
+                <li><input name="Professional Services" value="professional" type="checkbox">Professional Services</li>
+                <li><input name="Public Services &amp; Government" value="publicservicesgovt" type="checkbox">Public Services &amp;
+Government</li>
+                <li><input name="Real Estate" value="realestate" type="checkbox">Real Estate</li>
+                <li><input name="Religious Organizations" value="religiousorgs" type="checkbox">Religious Organizations</li>
+                <li><input name="Shopping" value="shopping" type="checkbox">Shopping</li>
+              </ul>
+              <div><input value="Submit" type="submit"></div>
+            </form>
+            </td>
+            <td style="vertical-align: top; text-align: center;"><br>
+            <iframe id="map_frame" frameborder="0" height="600" scrolling="no" width="100%"></iframe> </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br style="font-family: Book Antiqua;">
+
+<hr style="width: 100%; height: 2px;">
+<div style="text-align: center;">2013<br>
+</div>
+
+</body></html>
