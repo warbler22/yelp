@@ -1,0 +1,937 @@
+<ul>													
+				<li><input type="checkbox" name="Active Life" value="active">Active Life</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Amateur Sports Teams" value="amateursportsteams">Amateur Sports Teams</li>													
+<li><input type="checkbox" name="Amusement Parks" value="amusementparks">Amusement Parks</li>													
+<li><input type="checkbox" name="Aquariums" value="aquariums">Aquariums</li>													
+<li><input type="checkbox" name="Archery" value="archery">Archery</li>													
+<li><input type="checkbox" name="Badminton" value="badminton">Badminton</li>													
+<li><input type="checkbox" name="Beaches" value="beaches">Beaches</li>													
+<li><input type="checkbox" name="Bike Rentals" value="bikerentals">Bike Rentals</li>													
+<li><input type="checkbox" name="Boating" value="boating">Boating</li>													
+<li><input type="checkbox" name="Bowling" value="bowling">Bowling</li>													
+<li><input type="checkbox" name="climbing" value="climbing">Climbing</li>													
+<li><input type="checkbox" name="Disc Golf" value="discgolf">Disc Golf</li>													
+<li><input type="checkbox" name="Diving" value="diving">Diving</li>													
+													
+			<ul>
+												
+						<li><input type="checkbox" name="Free Diving" value="freediving">Free Diving</li>													
+<li><input type="checkbox" name="Scuba Diving" value="scuba">Scuba Diving</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Fishing" value="fishing">Fishing</li>													
+<li><input type="checkbox" name="Fitness & Instruction" value="fitness">Fitness & Instruction</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Barre Classes" value="barreclasses">Barre Classes</li>													
+<li><input type="checkbox" name="Boot Camps" value="bootcamps">Boot Camps</li>													
+<li><input type="checkbox" name="Boxing" value="boxing">Boxing</li>													
+<li><input type="checkbox" name="Dance Studios" value="dancestudio">Dance Studios</li>													
+<li><input type="checkbox" name="Gyms" value="gyms">Gyms</li>													
+<li><input type="checkbox" name="Martial Arts" value="martialarts">Martial Arts</li>													
+<li><input type="checkbox" name="Pilates" value="pilates">Pilates</li>													
+<li><input type="checkbox" name="Swimming Lessons/Schools" value="swimminglessons">Swimming Lessons/Schools</li>													
+<li><input type="checkbox" name="Tai Chi" value="taichi">Tai Chi</li>													
+<li><input type="checkbox" name="Trainers" value="healthtrainers">Trainers</li>													
+<li><input type="checkbox" name="Yoga" value="yoga">Yoga</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Go Karts" value="gokarts">Go Karts</li>													
+<li><input type="checkbox" name="Golf" value="golf">Golf</li>													
+<li><input type="checkbox" name="Gun/Rifle Ranges" value="gun_ranges">Gun/Rifle Ranges</li>													
+<li><input type="checkbox" name="Gymnastics" value="gymnastics">Gymnastics</li>													
+<li><input type="checkbox" name="Hang Gliding" value="hanggliding">Hang Gliding</li>													
+<li><input type="checkbox" name="Hiking" value="hiking">Hiking</li>													
+<li><input type="checkbox" name="Horse Racing" value="horseracing">Horse Racing</li>													
+<li><input type="checkbox" name="Horseback Riding" value="horsebackriding">Horseback Riding</li>													
+<li><input type="checkbox" name="Hot Air Balloons" value="hot_air_balloons">Hot Air Balloons</li>													
+<li><input type="checkbox" name="Kiteboarding" value="kiteboarding">Kiteboarding</li>													
+<li><input type="checkbox" name="Lakes" value="lakes">Lakes</li>													
+<li><input type="checkbox" name="Laser Tag" value="lasertag">Laser Tag</li>													
+<li><input type="checkbox" name="Leisure Centers" value="leisure_centers">Leisure Centers</li>													
+<li><input type="checkbox" name="Mini Golf" value="mini_golf">Mini Golf</li>													
+<li><input type="checkbox" name="Mountain Biking" value="mountainbiking">Mountain Biking</li>													
+<li><input type="checkbox" name="Paddleboarding" value="paddleboarding">Paddleboarding</li>													
+<li><input type="checkbox" name="Paintball" value="paintball">Paintball</li>													
+<li><input type="checkbox" name="Parks" value="parks">Parks</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Dog Parks" value="dog_parks">Dog Parks</li>													
+<li><input type="checkbox" name="Skate Parks" value="skate_parks">Skate Parks</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Playgrounds" value="playgrounds">Playgrounds</li>													
+<li><input type="checkbox" name="Rafting/Kayaking" value="rafting">Rafting/Kayaking</li>													
+<li><input type="checkbox" name="Recreation Centers" value="recreation">Recreation Centers</li>													
+<li><input type="checkbox" name="Rock Climbing" value="rock_climbing">Rock Climbing</li>													
+<li><input type="checkbox" name="Skating Rinks" value="skatingrinks">Skating Rinks</li>													
+<li><input type="checkbox" name="Skydiving" value="skydiving">Skydiving</li>													
+<li><input type="checkbox" name="Soccer" value="football">Soccer</li>													
+<li><input type="checkbox" name="Spin Classes" value="spinclasses">Spin Classes</li>													
+<li><input type="checkbox" name="Sports Clubs" value="sports_clubs">Sports Clubs</li>													
+<li><input type="checkbox" name="Squash" value="squash">Squash</li>													
+<li><input type="checkbox" name="Summer Camps" value="summer_camps">Summer Camps</li>													
+<li><input type="checkbox" name="Surfing" value="surfing">Surfing</li>													
+<li><input type="checkbox" name="Swimming Pools" value="swimmingpools">Swimming Pools</li>													
+<li><input type="checkbox" name="Tennis" value="tennis">Tennis</li>													
+<li><input type="checkbox" name="Trampoline Parks" value="trampoline">Trampoline Parks</li>													
+<li><input type="checkbox" name="Tubing" value="tubing">Tubing</li>													
+<li><input type="checkbox" name="Zoos" value="zoos">Zoos</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Arts & Entertainment" value="arts">Arts & Entertainment</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Arcades" value="arcades">Arcades</li>													
+<li><input type="checkbox" name="Art Galleries" value="galleries">Art Galleries</li>													
+<li><input type="checkbox" name="Botanical Gardens" value="gardens">Botanical Gardens</li>													
+<li><input type="checkbox" name="casinos" value="casinos">Casinos</li>													
+<li><input type="checkbox" name="cinema" value="movietheaters">Cinema</li>													
+<li><input type="checkbox" name="cultural Center" value="culturalcenter">Cultural Center</li>													
+<li><input type="checkbox" name="Festivals" value="festivals">Festivals</li>													
+<li><input type="checkbox" name="Jazz & Blues" value="jazzandblues">Jazz & Blues</li>													
+<li><input type="checkbox" name="Museums" value="museums">Museums</li>													
+<li><input type="checkbox" name="Music Venues" value="musicvenues">Music Venues</li>													
+<li><input type="checkbox" name="Opera & Ballet" value="opera">Opera & Ballet</li>													
+<li><input type="checkbox" name="Performing Arts" value="theater">Performing Arts</li>													
+<li><input type="checkbox" name="Professional Sports Teams" value="sportsteams">Professional Sports Teams</li>													
+<li><input type="checkbox" name="Psychics & Astrologers" value="psychic_astrology">Psychics & Astrologers</li>													
+<li><input type="checkbox" name="Race Tracks" value="racetracks">Race Tracks</li>													
+<li><input type="checkbox" name="Social Clubs" value="social_clubs">Social Clubs</li>													
+<li><input type="checkbox" name="Stadiums & Arenas" value="stadiumsarenas">Stadiums & Arenas</li>													
+<li><input type="checkbox" name="Ticket Sales" value="ticketsales">Ticket Sales</li>													
+<li><input type="checkbox" name="Wineries" value="wineries">Wineries</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Automotive" value="auto">Automotive</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Auto Detailing" value="auto_detailing">Auto Detailing</li>													
+<li><input type="checkbox" name="Auto Glass Services" value="autoglass">Auto Glass Services</li>													
+<li><input type="checkbox" name="Auto Loan Providers" value="autoloanproviders">Auto Loan Providers</li>													
+<li><input type="checkbox" name="Auto Parts & Supplies" value="autopartssupplies">Auto Parts & Supplies</li>													
+<li><input type="checkbox" name="Auto Repair" value="autorepair">Auto Repair</li>													
+<li><input type="checkbox" name="Boat Dealers" value="boatdealers">Boat Dealers</li>													
+<li><input type="checkbox" name="Body Shops" value="bodyshops">Body Shops</li>													
+<li><input type="checkbox" name="car Dealers" value="car_dealers">Car Dealers</li>													
+<li><input type="checkbox" name="car Stereo Installation" value="stereo_installation">Car Stereo Installation</li>													
+<li><input type="checkbox" name="car Wash" value="carwash">Car Wash</li>													
+<li><input type="checkbox" name="Gas & Service Stations" value="servicestations">Gas & Service Stations</li>													
+<li><input type="checkbox" name="Motorcycle Dealers" value="motorcycledealers">Motorcycle Dealers</li>													
+<li><input type="checkbox" name="Motorcycle Repair" value="motorcyclerepair">Motorcycle Repair</li>													
+<li><input type="checkbox" name="Oil Change Stations" value="oilchange">Oil Change Stations</li>													
+<li><input type="checkbox" name="Parking" value="parking">Parking</li>													
+<li><input type="checkbox" name="RV Dealers" value="rv_dealers">RV Dealers</li>													
+<li><input type="checkbox" name="Smog Check Stations" value="smog_check_stations">Smog Check Stations</li>													
+<li><input type="checkbox" name="Tires" value="tires">Tires</li>													
+<li><input type="checkbox" name="Towing" value="towing">Towing</li>													
+<li><input type="checkbox" name="Truck Rental" value="truck_rental">Truck Rental</li>													
+<li><input type="checkbox" name="Windshield Installation & Repair" value="windshieldinstallrepair">Windshield Installation & Repair</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Beauty & Spas" value="beautysvc">Beauty & Spas</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Barbers" value="barbers">Barbers</li>													
+<li><input type="checkbox" name="cosmetics & Beauty Supply" value="cosmetics">Cosmetics & Beauty Supply</li>													
+<li><input type="checkbox" name="Day Spas" value="spas">Day Spas</li>													
+<li><input type="checkbox" name="Eyelash Service" value="eyelashservice">Eyelash Service</li>													
+<li><input type="checkbox" name="Hair Extensions" value="hair_extensions">Hair Extensions</li>													
+<li><input type="checkbox" name="Hair Removal" value="hairremoval">Hair Removal</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Laser Hair Removal" value="laser_hair_removal">Laser Hair Removal</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Hair Salons" value="hair">Hair Salons</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Blow Dry/Out Services" value="blowoutservices">Blow Dry/Out Services</li>													
+<li><input type="checkbox" name="Hair Extensions" value="hair_extensions">Hair Extensions</li>													
+<li><input type="checkbox" name="Hair Stylists" value="hairstylists">Hair Stylists</li>													
+<li><input type="checkbox" name="Men's Hair Salons" value="menshair">Men's Hair Salons</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Makeup Artists" value="makeupartists">Makeup Artists</li>													
+<li><input type="checkbox" name="Massage" value="massage">Massage</li>													
+<li><input type="checkbox" name="Medical Spas" value="medicalspa">Medical Spas</li>													
+<li><input type="checkbox" name="Nail Salons" value="othersalons">Nail Salons</li>													
+<li><input type="checkbox" name="Permanent Makeup" value="permanentmakeup">Permanent Makeup</li>													
+<li><input type="checkbox" name="Piercing" value="piercing">Piercing</li>													
+<li><input type="checkbox" name="Rolfing" value="rolfing">Rolfing</li>													
+<li><input type="checkbox" name="Skin Care" value="skincare">Skin Care</li>													
+<li><input type="checkbox" name="Tanning" value="tanning">Tanning</li>													
+<li><input type="checkbox" name="Tattoo" value="tattoo">Tattoo</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Education" value="education">Education</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Adult Education" value="adultedu">Adult Education</li>													
+<li><input type="checkbox" name="college Counseling" value="collegecounseling">College Counseling</li>													
+<li><input type="checkbox" name="colleges & Universities" value="collegeuniv">Colleges & Universities</li>													
+<li><input type="checkbox" name="Educational Services" value="educationservices">Educational Services</li>													
+<li><input type="checkbox" name="Elementary Schools" value="elementaryschools">Elementary Schools</li>													
+<li><input type="checkbox" name="Middle Schools & High Schools" value="highschools">Middle Schools & High Schools</li>													
+<li><input type="checkbox" name="Preschools" value="preschools">Preschools</li>													
+<li><input type="checkbox" name="Private Tutors" value="privatetutors">Private Tutors</li>													
+<li><input type="checkbox" name="Religious Schools" value="religiousschools">Religious Schools</li>													
+<li><input type="checkbox" name="Special Education" value="specialed">Special Education</li>													
+<li><input type="checkbox" name="Specialty Schools" value="specialtyschools">Specialty Schools</li>													
+		<ul>
+													
+						<li><input type="checkbox" name="Art Schools" value="artschools">Art Schools</li>													
+<li><input type="checkbox" name="cPR Classes" value="cprclasses">CPR Classes</li>													
+<li><input type="checkbox" name="cooking Schools" value="cookingschools">Cooking Schools</li>													
+<li><input type="checkbox" name="cosmetology Schools" value="cosmetology_schools">Cosmetology Schools</li>													
+<li><input type="checkbox" name="Dance Schools" value="dance_schools">Dance Schools</li>													
+<li><input type="checkbox" name="Driving Schools" value="driving_schools">Driving Schools</li>													
+<li><input type="checkbox" name="First Aid Classes" value="firstaidclasses">First Aid Classes</li>													
+<li><input type="checkbox" name="Flight Instruction" value="flightinstruction">Flight Instruction</li>													
+<li><input type="checkbox" name="Language Schools" value="language_schools">Language Schools</li>													
+<li><input type="checkbox" name="Massage Schools" value="massage_schools">Massage Schools</li>													
+<li><input type="checkbox" name="Swimming Lessons/Schools" value="swimminglessons">Swimming Lessons/Schools</li>													
+<li><input type="checkbox" name="Vocational & Technical School" value="vocation">Vocational & Technical School</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Test Preparation" value="testprep">Test Preparation</li>													
+<li><input type="checkbox" name="Tutoring Centers" value="tutoring">Tutoring Centers</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Event Planning & Services" value="eventservices">Event Planning & Services</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Bartenders" value="bartenders">Bartenders</li>													
+<li><input type="checkbox" name="Boat Charters" value="boatcharters">Boat Charters</li>													
+<li><input type="checkbox" name="cards & Stationery" value="stationery">Cards & Stationery</li>													
+<li><input type="checkbox" name="caterers" value="catering">Caterers</li>													
+<li><input type="checkbox" name="clowns" value="clowns">Clowns</li>													
+<li><input type="checkbox" name="DJs" value="djs">DJs</li>													
+<li><input type="checkbox" name="Hotels" value="hotels">Hotels</li>													
+<li><input type="checkbox" name="Magicians" value="magicians">Magicians</li>													
+<li><input type="checkbox" name="Musicians" value="musicians">Musicians</li>													
+<li><input type="checkbox" name="Officiants" value="officiants">Officiants</li>													
+<li><input type="checkbox" name="Party & Event Planning" value="eventplanning">Party & Event Planning</li>													
+<li><input type="checkbox" name="Party Bus Rentals" value="partybusrentals">Party Bus Rentals</li>													
+<li><input type="checkbox" name="Party Equipment Rentals" value="partyequipmentrentals">Party Equipment Rentals</li>													
+<li><input type="checkbox" name="Party Supplies" value="partysupplies">Party Supplies</li>													
+<li><input type="checkbox" name="Personal Chefs" value="personalchefs">Personal Chefs</li>													
+<li><input type="checkbox" name="Photographers" value="photographers">Photographers</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Event Photography" value="eventphotography">Event Photography</li>													
+<li><input type="checkbox" name="Session Photography" value="sessionphotography">Session Photography</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Venues & Event Spaces" value="venues">Venues & Event Spaces</li>													
+<li><input type="checkbox" name="Videographers" value="videographers">Videographers</li>													
+<li><input type="checkbox" name="Wedding Planning" value="wedding_planning">Wedding Planning</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Financial Services" value="financialservices">Financial Services</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Banks & Credit Unions" value="banks">Banks & Credit Unions</li>													
+<li><input type="checkbox" name="check Cashing/Pay-day Loans" value="paydayloans">Check Cashing/Pay-day Loans</li>													
+<li><input type="checkbox" name="Financial Advising" value="financialadvising">Financial Advising</li>													
+<li><input type="checkbox" name="Insurance" value="insurance">Insurance</li>													
+<li><input type="checkbox" name="Investing" value="investing">Investing</li>													
+<li><input type="checkbox" name="Tax Services" value="taxservices">Tax Services</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Food" value="food">Food</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Bagels" value="bagels">Bagels</li>													
+<li><input type="checkbox" name="Bakeries" value="bakeries">Bakeries</li>													
+<li><input type="checkbox" name="Beer, Wine & Spirits" value="beer_and_wine">Beer, Wine & Spirits</li>													
+<li><input type="checkbox" name="Breweries" value="breweries">Breweries</li>													
+<li><input type="checkbox" name="Bubble Tea" value="bubbletea">Bubble Tea</li>													
+<li><input type="checkbox" name="Butcher" value="butcher">Butcher</li>													
+<li><input type="checkbox" name="cSA" value="csa">CSA</li>													
+<li><input type="checkbox" name="coffee & Tea" value="coffee">Coffee & Tea</li>													
+<li><input type="checkbox" name="convenience Stores" value="convenience">Convenience Stores</li>													
+<li><input type="checkbox" name="Desserts" value="desserts">Desserts</li>													
+<li><input type="checkbox" name="Do-It-Yourself Food" value="diyfood">Do-It-Yourself Food</li>													
+<li><input type="checkbox" name="Donuts" value="donuts">Donuts</li>													
+<li><input type="checkbox" name="Farmers Market" value="farmersmarket">Farmers Market</li>													
+<li><input type="checkbox" name="Food Delivery Services" value="fooddeliveryservices">Food Delivery Services</li>													
+<li><input type="checkbox" name="Food Trucks" value="foodtrucks">Food Trucks</li>													
+<li><input type="checkbox" name="Gelato" value="gelato">Gelato</li>													
+<li><input type="checkbox" name="Grocery" value="grocery">Grocery</li>													
+<li><input type="checkbox" name="Ice Cream & Frozen Yogurt" value="icecream">Ice Cream & Frozen Yogurt</li>													
+<li><input type="checkbox" name="Internet Cafes" value="internetcafe">Internet Cafes</li>													
+<li><input type="checkbox" name="Juice Bars & Smoothies" value="juicebars">Juice Bars & Smoothies</li>													
+<li><input type="checkbox" name="Pretzels" value="pretzels">Pretzels</li>													
+<li><input type="checkbox" name="Shaved Ice" value="shavedice">Shaved Ice</li>													
+<li><input type="checkbox" name="Specialty Food" value="gourmet">Specialty Food</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="candy Stores" value="candy">Candy Stores</li>													
+<li><input type="checkbox" name="cheese Shops" value="cheese">Cheese Shops</li>													
+<li><input type="checkbox" name="chocolatiers & Shops" value="chocolate">Chocolatiers & Shops</li>													
+<li><input type="checkbox" name="Ethnic Food" value="ethnicmarkets">Ethnic Food</li>													
+<li><input type="checkbox" name="Fruits & Veggies" value="markets">Fruits & Veggies</li>													
+<li><input type="checkbox" name="Health Markets" value="healthmarkets">Health Markets</li>													
+<li><input type="checkbox" name="Herbs & Spices" value="herbsandspices">Herbs & Spices</li>													
+<li><input type="checkbox" name="Meat Shops" value="meats">Meat Shops</li>													
+<li><input type="checkbox" name="Seafood Markets" value="seafoodmarkets">Seafood Markets</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Street Vendors" value="streetvendors">Street Vendors</li>													
+<li><input type="checkbox" name="Tea Rooms" value="tea">Tea Rooms</li>													
+<li><input type="checkbox" name="Wineries" value="wineries">Wineries</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Health & Medical" value="health">Health & Medical</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Acupuncture" value="acupuncture">Acupuncture</li>													
+<li><input type="checkbox" name="cannabis Clinics" value="cannabis_clinics">Cannabis Clinics</li>													
+<li><input type="checkbox" name="chiropractors" value="chiropractors">Chiropractors</li>													
+<li><input type="checkbox" name="counseling & Mental Health" value="c_and_mh">Counseling & Mental Health</li>													
+<li><input type="checkbox" name="Dentists" value="dentists">Dentists</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="cosmetic Dentists" value="cosmeticdentists">Cosmetic Dentists</li>													
+<li><input type="checkbox" name="Endodontists" value="endodontists">Endodontists</li>													
+<li><input type="checkbox" name="General Dentistry" value="generaldentistry">General Dentistry</li>													
+<li><input type="checkbox" name="Oral Surgeons" value="oralsurgeons">Oral Surgeons</li>													
+<li><input type="checkbox" name="Orthodontists" value="orthodontists">Orthodontists</li>													
+<li><input type="checkbox" name="Pediatric Dentists" value="pediatric_dentists">Pediatric Dentists</li>													
+<li><input type="checkbox" name="Periodontists" value="periodontists">Periodontists</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Diagnostic Services" value="diagnosticservices">Diagnostic Services</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Diagnostic Imaging" value="diagnosticimaging">Diagnostic Imaging</li>													
+<li><input type="checkbox" name="Laboratory Testing" value="laboratorytesting">Laboratory Testing</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Doctors" value="physicians">Doctors</li>													
+			<ul>
+												
+						<li><input type="checkbox" name="Allergists" value="allergist">Allergists</li>													
+<li><input type="checkbox" name="Anesthesiologists" value="anesthesiologists">Anesthesiologists</li>													
+<li><input type="checkbox" name="Audiologist" value="audiologist">Audiologist</li>													
+<li><input type="checkbox" name="cardiologists" value="cardiology">Cardiologists</li>													
+<li><input type="checkbox" name="cosmetic Surgeons" value="cosmeticsurgeons">Cosmetic Surgeons</li>													
+<li><input type="checkbox" name="Dermatologists" value="dermatology">Dermatologists</li>													
+<li><input type="checkbox" name="Ear Nose & Throat" value="earnosethroat">Ear Nose & Throat</li>													
+<li><input type="checkbox" name="Family Practice" value="familydr">Family Practice</li>													
+<li><input type="checkbox" name="Fertility" value="fertility">Fertility</li>													
+<li><input type="checkbox" name="Gastroenterologist" value="gastroenterologist">Gastroenterologist</li>													
+<li><input type="checkbox" name="Gerontologists" value="gerontologist">Gerontologists</li>													
+<li><input type="checkbox" name="Internal Medicine" value="internalmed">Internal Medicine</li>													
+<li><input type="checkbox" name="Naturopathic/Holistic" value="naturopathic">Naturopathic/Holistic</li>													
+<li><input type="checkbox" name="Neurologist" value="neurologist">Neurologist</li>													
+<li><input type="checkbox" name="Obstetricians & Gynecologists" value="obgyn">Obstetricians & Gynecologists</li>													
+<li><input type="checkbox" name="Oncologist" value="oncologist">Oncologist</li>													
+<li><input type="checkbox" name="Ophthalmologists" value="opthamalogists">Ophthalmologists</li>													
+<li><input type="checkbox" name="Orthopedists" value="orthopedists">Orthopedists</li>													
+<li><input type="checkbox" name="Osteopathic Physicians" value="osteopathicphysicians">Osteopathic Physicians</li>													
+<li><input type="checkbox" name="Pediatricians" value="pediatricians">Pediatricians</li>													
+<li><input type="checkbox" name="Podiatrists" value="podiatrists">Podiatrists</li>													
+<li><input type="checkbox" name="Proctologists" value="proctologist">Proctologists</li>													
+<li><input type="checkbox" name="Psychiatrists" value="psychiatrists">Psychiatrists</li>													
+<li><input type="checkbox" name="Pulmonologist" value="pulmonologist">Pulmonologist</li>													
+<li><input type="checkbox" name="Sports Medicine" value="sportsmed">Sports Medicine</li>													
+<li><input type="checkbox" name="Tattoo Removal" value="tattooremoval">Tattoo Removal</li>													
+<li><input type="checkbox" name="Urologists" value="urologists">Urologists</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Hearing Aid Providers" value="hearingaidproviders">Hearing Aid Providers</li>													
+<li><input type="checkbox" name="Home Health Care" value="homehealthcare">Home Health Care</li>													
+<li><input type="checkbox" name="Hospice" value="hospice">Hospice</li>													
+<li><input type="checkbox" name="Hospitals" value="hospitals">Hospitals</li>													
+<li><input type="checkbox" name="Lactation Services" value="lactationservices">Lactation Services</li>													
+<li><input type="checkbox" name="Laser Eye Surgery/Lasik" value="laserlasikeyes">Laser Eye Surgery/Lasik</li>													
+<li><input type="checkbox" name="Massage Therapy" value="massage_therapy">Massage Therapy</li>													
+<li><input type="checkbox" name="Medical Centers" value="medcenters">Medical Centers</li>													
+<li><input type="checkbox" name="Medical Spas" value="medicalspa">Medical Spas</li>													
+<li><input type="checkbox" name="Medical Transportation" value="medicaltransportation">Medical Transportation</li>													
+<li><input type="checkbox" name="Midwives" value="midwives">Midwives</li>													
+<li><input type="checkbox" name="Nutritionists" value="nutritionists">Nutritionists</li>													
+<li><input type="checkbox" name="Occupational Therapy" value="occupationaltherapy">Occupational Therapy</li>													
+<li><input type="checkbox" name="Optometrists" value="optometrists">Optometrists</li>													
+<li><input type="checkbox" name="Physical Therapy" value="physicaltherapy">Physical Therapy</li>													
+<li><input type="checkbox" name="Reflexology" value="reflexology">Reflexology</li>													
+<li><input type="checkbox" name="Rehabilitation Center" value="rehabilitation_center">Rehabilitation Center</li>													
+<li><input type="checkbox" name="Retirement Homes" value="retirement_homes">Retirement Homes</li>													
+<li><input type="checkbox" name="Speech Therapists" value="speech_therapists">Speech Therapists</li>													
+<li><input type="checkbox" name="Traditional Chinese Medicine" value="tcm">Traditional Chinese Medicine</li>													
+<li><input type="checkbox" name="Urgent Care" value="urgent_care">Urgent Care</li>													
+<li><input type="checkbox" name="Weight Loss Centers" value="weightlosscenters">Weight Loss Centers</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Home Services" value="homeservices">Home Services</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Building Supplies" value="buildingsupplies">Building Supplies</li>													
+<li><input type="checkbox" name="carpet Installation" value="carpetinstallation">Carpet Installation</li>													
+<li><input type="checkbox" name="carpeting" value="carpeting">Carpeting</li>													
+<li><input type="checkbox" name="contractors" value="contractors">Contractors</li>													
+<li><input type="checkbox" name="Electricians" value="electricians">Electricians</li>													
+<li><input type="checkbox" name="Flooring" value="flooring">Flooring</li>													
+<li><input type="checkbox" name="Garage Door Services" value="garage_door_services">Garage Door Services</li>													
+<li><input type="checkbox" name="Gardeners" value="gardeners">Gardeners</li>													
+<li><input type="checkbox" name="Handyman" value="handyman">Handyman</li>													
+<li><input type="checkbox" name="Heating & Air Conditioning/HVAC" value="hvac">Heating & Air Conditioning/HVAC</li>													
+<li><input type="checkbox" name="Home Cleaning" value="homecleaning">Home Cleaning</li>													
+<li><input type="checkbox" name="Home Inspectors" value="home_inspectors">Home Inspectors</li>													
+<li><input type="checkbox" name="Home Organization" value="home_organization">Home Organization</li>													
+<li><input type="checkbox" name="Home Theatre Installation" value="hometheatreinstallation">Home Theatre Installation</li>													
+<li><input type="checkbox" name="Home Window Tinting" value="homewindowtinting">Home Window Tinting</li>													
+<li><input type="checkbox" name="Interior Design" value="interiordesign">Interior Design</li>													
+<li><input type="checkbox" name="Internet Service Providers" value="isps">Internet Service Providers</li>													
+<li><input type="checkbox" name="Irrigation" value="irrigation">Irrigation</li>													
+<li><input type="checkbox" name="Keys & Locksmiths" value="locksmiths">Keys & Locksmiths</li>													
+<li><input type="checkbox" name="Landscape Architects" value="landscapearchitects">Landscape Architects</li>													
+<li><input type="checkbox" name="Landscaping" value="landscaping">Landscaping</li>													
+<li><input type="checkbox" name="Lighting Fixtures & Equipment" value="lighting">Lighting Fixtures & Equipment</li>													
+<li><input type="checkbox" name="Masonry/Concrete" value="masonry_concrete">Masonry/Concrete</li>													
+<li><input type="checkbox" name="Movers" value="movers">Movers</li>													
+<li><input type="checkbox" name="Painters" value="painters">Painters</li>													
+<li><input type="checkbox" name="Plumbing" value="plumbing">Plumbing</li>													
+<li><input type="checkbox" name="Pool Cleaners" value="poolcleaners">Pool Cleaners</li>													
+<li><input type="checkbox" name="Real Estate" value="realestate">Real Estate</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Apartments" value="apartments">Apartments</li>													
+<li><input type="checkbox" name="commercial Real Estate" value="commercialrealestate">Commercial Real Estate</li>													
+<li><input type="checkbox" name="Home Staging" value="homestaging">Home Staging</li>													
+<li><input type="checkbox" name="Mortgage Brokers" value="mortgagebrokers">Mortgage Brokers</li>													
+<li><input type="checkbox" name="Property Management" value="propertymgmt">Property Management</li>													
+<li><input type="checkbox" name="Real Estate Agents" value="realestateagents">Real Estate Agents</li>													
+<li><input type="checkbox" name="Real Estate Services" value="realestatesvcs">Real Estate Services</li>													
+<li><input type="checkbox" name="Shared Office Spaces" value="sharedofficespaces">Shared Office Spaces</li>													
+<li><input type="checkbox" name="University Housing" value="university_housing">University Housing</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Roofing" value="roofing">Roofing</li>													
+<li><input type="checkbox" name="Security Systems" value="securitysystems">Security Systems</li>													
+<li><input type="checkbox" name="Shades & Blinds" value="blinds">Shades & Blinds</li>													
+<li><input type="checkbox" name="Solar Installation" value="solarinstallation">Solar Installation</li>													
+<li><input type="checkbox" name="Television Service Providers" value="televisionserviceproviders">Television Service Providers</li>													
+<li><input type="checkbox" name="Tree Services" value="treeservices">Tree Services</li>													
+<li><input type="checkbox" name="Utilities" value="utilities">Utilities</li>													
+<li><input type="checkbox" name="Window Washing" value="windowwashing">Window Washing</li>													
+<li><input type="checkbox" name="Windows Installation" value="windowsinstallation">Windows Installation</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Hotels & Travel" value="hotelstravel">Hotels & Travel</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Airports" value="airports">Airports</li>													
+<li><input type="checkbox" name="Bed & Breakfast" value="bedbreakfast">Bed & Breakfast</li>													
+<li><input type="checkbox" name="campgrounds" value="campgrounds">Campgrounds</li>													
+<li><input type="checkbox" name="car Rental" value="carrental">Car Rental</li>													
+<li><input type="checkbox" name="Guest Houses" value="guesthouses">Guest Houses</li>													
+<li><input type="checkbox" name="Hostels" value="hostels">Hostels</li>													
+<li><input type="checkbox" name="Hotels" value="hotels">Hotels</li>													
+<li><input type="checkbox" name="Motorcycle Rental" value="motorcycle_rental">Motorcycle Rental</li>													
+<li><input type="checkbox" name="RV Parks" value="rvparks">RV Parks</li>													
+<li><input type="checkbox" name="RV Rental" value="rvrental">RV Rental</li>													
+<li><input type="checkbox" name="Resorts" value="resorts">Resorts</li>													
+<li><input type="checkbox" name="Ski Resorts" value="skiresorts">Ski Resorts</li>													
+<li><input type="checkbox" name="Tours" value="tours">Tours</li>													
+<li><input type="checkbox" name="Train Stations" value="trainstations">Train Stations</li>													
+<li><input type="checkbox" name="Transportation" value="transport">Transportation</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Airlines" value="airlines">Airlines</li>													
+<li><input type="checkbox" name="Airport Shuttles" value="airport_shuttles">Airport Shuttles</li>													
+<li><input type="checkbox" name="Limos" value="limos">Limos</li>													
+<li><input type="checkbox" name="Public Transportation" value="publictransport">Public Transportation</li>													
+<li><input type="checkbox" name="Taxis" value="taxis">Taxis</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Travel Services" value="travelservices">Travel Services</li>													
+<li><input type="checkbox" name="Vacation Rental Agents" value="vacationrentalagents">Vacation Rental Agents</li>													
+<li><input type="checkbox" name="Vacation Rentals" value="vacation_rentals">Vacation Rentals</li>																										
+			</ul>
+													
+<li><input type="checkbox" name="Local Flavor" value="localflavor">Local Flavor</li>													
+<li><input type="checkbox" name="Local Services" value="localservices">Local Services</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Appliances & Repair" value="homeappliancerepair">Appliances & Repair</li>													
+<li><input type="checkbox" name="Bail Bondsmen" value="bailbondsmen">Bail Bondsmen</li>													
+<li><input type="checkbox" name="Bike Repair/Maintenance" value="bike_repair_maintenance">Bike Repair/Maintenance</li>													
+<li><input type="checkbox" name="carpet Cleaning" value="carpet_cleaning">Carpet Cleaning</li>													
+<li><input type="checkbox" name="child Care & Day Care" value="childcare">Child Care & Day Care</li>													
+<li><input type="checkbox" name="community Service/Non-Profit" value="nonprofit">Community Service/Non-Profit</li>													
+<li><input type="checkbox" name="couriers & Delivery Services" value="couriers">Couriers & Delivery Services</li>													
+<li><input type="checkbox" name="Dry Cleaning & Laundry" value="drycleaninglaundry">Dry Cleaning & Laundry</li>													
+<li><input type="checkbox" name="Electronics Repair" value="electronicsrepair">Electronics Repair</li>													
+<li><input type="checkbox" name="Funeral Services & Cemeteries" value="funeralservices">Funeral Services & Cemeteries</li>													
+<li><input type="checkbox" name="Furniture Reupholstery" value="reupholstery">Furniture Reupholstery</li>													
+<li><input type="checkbox" name="IT Services & Computer Repair" value="itservices">IT Services & Computer Repair</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Data Recovery" value="datarecovery">Data Recovery</li>													
+<li><input type="checkbox" name="Mobile Phone Repair" value="mobilephonerepair">Mobile Phone Repair</li>													
+												
+		</ul>
+													
+<li><input type="checkbox" name="Jewelry Repair" value="jewelryrepair">Jewelry Repair</li>													
+<li><input type="checkbox" name="Junk Removal & Hauling" value="junkremovalandhauling">Junk Removal & Hauling</li>													
+<li><input type="checkbox" name="Notaries" value="notaries">Notaries</li>													
+<li><input type="checkbox" name="Pest Control" value="pest_control">Pest Control</li>													
+<li><input type="checkbox" name="Printing Services" value="copyshops">Printing Services</li>													
+<li><input type="checkbox" name="Recording & Rehearsal Studios" value="recording_studios">Recording & Rehearsal Studios</li>													
+<li><input type="checkbox" name="Recycling Center" value="recyclingcenter">Recycling Center</li>													
+<li><input type="checkbox" name="Screen Printing" value="screenprinting">Screen Printing</li>													
+<li><input type="checkbox" name="Screen Printing/T-Shirt Printing" value="screen_printing_tshirt_printing">Screen Printing/T-Shirt Printing</li>													
+<li><input type="checkbox" name="Self Storage" value="selfstorage">Self Storage</li>													
+<li><input type="checkbox" name="Sewing & Alterations" value="sewingalterations">Sewing & Alterations</li>													
+<li><input type="checkbox" name="Shipping Centers" value="shipping_centers">Shipping Centers</li>													
+<li><input type="checkbox" name="Shoe Repair" value="shoerepair">Shoe Repair</li>													
+<li><input type="checkbox" name="Snow Removal" value="snowremoval">Snow Removal</li>													
+<li><input type="checkbox" name="Watch Repair" value="watch_repair">Watch Repair</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Mass Media" value="massmedia">Mass Media</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Print Media" value="printmedia">Print Media</li>													
+<li><input type="checkbox" name="Radio Stations" value="radiostations">Radio Stations</li>													
+<li><input type="checkbox" name="Television Stations" value="televisionstations">Television Stations</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Nightlife" value="nightlife">Nightlife</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Adult Entertainment" value="adultentertainment">Adult Entertainment</li>													
+<li><input type="checkbox" name="Bars" value="bars">Bars</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="champagne Bars" value="champagne_bars">Champagne Bars</li>													
+<li><input type="checkbox" name="cocktail Bars" value="cocktailbars">Cocktail Bars</li>													
+<li><input type="checkbox" name="Dive Bars" value="divebars">Dive Bars</li>													
+<li><input type="checkbox" name="Gay Bars" value="gaybars">Gay Bars</li>													
+<li><input type="checkbox" name="Hookah Bars" value="hookah_bars">Hookah Bars</li>													
+<li><input type="checkbox" name="Lounges" value="lounges">Lounges</li>													
+<li><input type="checkbox" name="Pubs" value="pubs">Pubs</li>													
+<li><input type="checkbox" name="Sports Bars" value="sportsbars">Sports Bars</li>													
+<li><input type="checkbox" name="Wine Bars" value="wine_bars">Wine Bars</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="comedy Clubs" value="comedyclubs">Comedy Clubs</li>													
+<li><input type="checkbox" name="country Dance Halls" value="countrydancehalls">Country Dance Halls</li>													
+<li><input type="checkbox" name="Dance Clubs" value="danceclubs">Dance Clubs</li>													
+<li><input type="checkbox" name="Jazz & Blues" value="jazzandblues">Jazz & Blues</li>													
+<li><input type="checkbox" name="Karaoke" value="karaoke">Karaoke</li>													
+<li><input type="checkbox" name="Music Venues" value="musicvenues">Music Venues</li>													
+<li><input type="checkbox" name="Piano Bars" value="pianobars">Piano Bars</li>													
+<li><input type="checkbox" name="Pool Halls" value="poolhalls">Pool Halls</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Pets" value="pets">Pets</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Animal Shelters" value="animalshelters">Animal Shelters</li>													
+<li><input type="checkbox" name="Horse Boarding" value="horse_boarding">Horse Boarding</li>													
+<li><input type="checkbox" name="Pet Services" value="petservices">Pet Services</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Dog Walkers" value="dogwalkers">Dog Walkers</li>													
+<li><input type="checkbox" name="Pet Boarding/Pet Sitting" value="pet_sitting">Pet Boarding/Pet Sitting</li>													
+<li><input type="checkbox" name="Pet Groomers" value="groomer">Pet Groomers</li>													
+<li><input type="checkbox" name="Pet Training" value="pet_training">Pet Training</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Pet Stores" value="petstore">Pet Stores</li>													
+<li><input type="checkbox" name="Veterinarians" value="vet">Veterinarians</li>																									
+		</ul>
+													
+<li><input type="checkbox" name="Professional Services" value="professional">Professional Services</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Accountants" value="accountants">Accountants</li>													
+<li><input type="checkbox" name="Advertising" value="advertising">Advertising</li>													
+<li><input type="checkbox" name="Architects" value="architects">Architects</li>													
+<li><input type="checkbox" name="Boat Repair" value="boatrepair">Boat Repair</li>													
+<li><input type="checkbox" name="career Counseling" value="careercounseling">Career Counseling</li>													
+<li><input type="checkbox" name="Editorial Services" value="editorialservices">Editorial Services</li>													
+<li><input type="checkbox" name="Employment Agencies" value="employmentagencies">Employment Agencies</li>													
+<li><input type="checkbox" name="Graphic Design" value="graphicdesign">Graphic Design</li>													
+<li><input type="checkbox" name="Internet Service Providers" value="isps">Internet Service Providers</li>													
+<li><input type="checkbox" name="Lawyers" value="lawyers">Lawyers</li>													
+		<ul>
+													
+				<li><input type="checkbox" name="Bankruptcy Law" value="bankruptcy">Bankruptcy Law</li>													
+<li><input type="checkbox" name="Business Law" value="businesslawyers">Business Law</li>													
+<li><input type="checkbox" name="criminal Defense Law" value="criminaldefense">Criminal Defense Law</li>													
+<li><input type="checkbox" name="DUI Law" value="duilawyers">DUI Law</li>													
+<li><input type="checkbox" name="Divorce & Family Law" value="divorce">Divorce & Family Law</li>													
+<li><input type="checkbox" name="Employment Law" value="employmentlawyers">Employment Law</li>													
+<li><input type="checkbox" name="Estate Planning Law" value="estateplanning">Estate Planning Law</li>													
+<li><input type="checkbox" name="General Litigation" value="general_litigation">General Litigation</li>													
+<li><input type="checkbox" name="Immigration Law" value="immigrationlawyers">Immigration Law</li>													
+<li><input type="checkbox" name="Personal Injury Law" value="personal_injury">Personal Injury Law</li>													
+<li><input type="checkbox" name="Real Estate Law" value="realestatelawyers">Real Estate Law</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Life Coach" value="lifecoach">Life Coach</li>													
+<li><input type="checkbox" name="Marketing" value="marketing">Marketing</li>													
+<li><input type="checkbox" name="Matchmakers" value="matchmakers">Matchmakers</li>													
+<li><input type="checkbox" name="Office Cleaning" value="officecleaning">Office Cleaning</li>													
+<li><input type="checkbox" name="Personal Assistants" value="personalassistants">Personal Assistants</li>													
+<li><input type="checkbox" name="Private Investigation" value="privateinvestigation">Private Investigation</li>													
+<li><input type="checkbox" name="Public Relations" value="publicrelations">Public Relations</li>													
+<li><input type="checkbox" name="Talent Agencies" value="talentagencies">Talent Agencies</li>													
+<li><input type="checkbox" name="Taxidermy" value="taxidermy">Taxidermy</li>													
+<li><input type="checkbox" name="Translation Services" value="translationservices">Translation Services</li>													
+<li><input type="checkbox" name="Video/Film Production" value="videofilmproductions">Video/Film Production</li>													
+<li><input type="checkbox" name="Web Design" value="web_design">Web Design</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Public Services & Government" value="publicservicesgovt">Public Services & Government</li>													
+		<ul>
+													
+				<li><input type="checkbox" name="courthouses" value="courthouses">Courthouses</li>													
+<li><input type="checkbox" name="Departments of Motor Vehicles" value="departmentsofmotorvehicles">Departments of Motor Vehicles</li>													
+<li><input type="checkbox" name="Embassy" value="embassy">Embassy</li>													
+<li><input type="checkbox" name="Fire Departments" value="firedepartments">Fire Departments</li>													
+<li><input type="checkbox" name="Landmarks & Historical Buildings" value="landmarks">Landmarks & Historical Buildings</li>													
+<li><input type="checkbox" name="Libraries" value="libraries">Libraries</li>													
+<li><input type="checkbox" name="Police Departments" value="policedepartments">Police Departments</li>													
+<li><input type="checkbox" name="Post Offices" value="postoffices">Post Offices</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Real Estate" value="realestate">Real Estate</li>																<ul>
+													
+					<li><input type="checkbox" name="Apartments" value="apartments">Apartments</li>													
+<li><input type="checkbox" name="commercial Real Estate" value="commercialrealestate">Commercial Real Estate</li>													
+<li><input type="checkbox" name="Home Staging" value="homestaging">Home Staging</li>													
+<li><input type="checkbox" name="Mortgage Brokers" value="mortgagebrokers">Mortgage Brokers</li>													
+<li><input type="checkbox" name="Property Management" value="propertymgmt">Property Management</li>													
+<li><input type="checkbox" name="Real Estate Agents" value="realestateagents">Real Estate Agents</li>													
+<li><input type="checkbox" name="Real Estate Services" value="realestatesvcs">Real Estate Services</li>													
+<li><input type="checkbox" name="Shared Office Spaces" value="sharedofficespaces">Shared Office Spaces</li>													
+<li><input type="checkbox" name="University Housing" value="university_housing">University Housing</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Religious Organizations" value="religiousorgs">Religious Organizations</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Buddhist Temples" value="buddhist_temples">Buddhist Temples</li>													
+<li><input type="checkbox" name="churches" value="churches">Churches</li>													
+<li><input type="checkbox" name="Hindu Temples" value="hindu_temples">Hindu Temples</li>													
+<li><input type="checkbox" name="Mosques" value="mosques">Mosques</li>													
+<li><input type="checkbox" name="Synagogues" value="synagogues">Synagogues</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Restaurants" value="restaurants">Restaurants</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Afghan" value="afghani">Afghan</li>													
+<li><input type="checkbox" name="African" value="african">African</li>													
+		<ul>
+													
+				<li><input type="checkbox" name="Senegalese" value="senegalese">Senegalese</li>													
+<li><input type="checkbox" name="South African" value="southafrican">South African</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="American	New	 "value=""newamerican">					American New
+</li>													
+<li><input type="checkbox" name="American		Traditional "value="tradamerican">					American Traditional
+</li>													
+<li><input type="checkbox" name="Arabian" value="arabian">Arabian</li>													
+<li><input type="checkbox" name="Argentine" value="argentine">Argentine</li>													
+<li><input type="checkbox" name="Armenian" value="armenian">Armenian</li>													
+<li><input type="checkbox" name="Asian Fusion" value="asianfusion">Asian Fusion</li>													
+<li><input type="checkbox" name="Australian" value="australian">Australian</li>													
+<li><input type="checkbox" name="Austrian" value="austrian">Austrian</li>													
+<li><input type="checkbox" name="Bangladeshi" value="bangladeshi">Bangladeshi</li>													
+<li><input type="checkbox" name="Barbeque" value="bbq">Barbeque</li>													
+<li><input type="checkbox" name="Basque" value="basque">Basque</li>													
+<li><input type="checkbox" name="Belgian" value="belgian">Belgian</li>													
+<li><input type="checkbox" name="Brasseries" value="brasseries">Brasseries</li>													
+<li><input type="checkbox" name="Brazilian" value="brazilian">Brazilian</li>													
+<li><input type="checkbox" name="Breakfast & Brunch" value="breakfast_brunch">Breakfast & Brunch</li>													
+<li><input type="checkbox" name="British" value="british">British</li>													
+<li><input type="checkbox" name="Buffets" value="buffets">Buffets</li>													
+<li><input type="checkbox" name="Burgers" value="burgers">Burgers</li>													
+<li><input type="checkbox" name="Burmese" value="burmese">Burmese</li>													
+<li><input type="checkbox" name="cafes" value="cafes">Cafes</li>													
+<li><input type="checkbox" name="cafeteria" value="cafeteria">Cafeteria</li>													
+<li><input type="checkbox" name="cajun/Creole" value="cajun">Cajun/Creole</li>													
+<li><input type="checkbox" name="cambodian" value="cambodian">Cambodian</li>													
+<li><input type="checkbox" name="caribbean" value="caribbean">Caribbean</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Dominican" value="dominican">Dominican</li>													
+<li><input type="checkbox" name="Haitian" value="haitian">Haitian</li>													
+<li><input type="checkbox" name="Puerto Rican" value="puertorican">Puerto Rican</li>													
+<li><input type="checkbox" name="Trinidadian" value="trinidadian">Trinidadian</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="catalan" value="catalan">Catalan</li>													
+<li><input type="checkbox" name="cheesesteaks" value="cheesesteaks">Cheesesteaks</li>													
+<li><input type="checkbox" name="chicken Wings" value="chicken_wings">Chicken Wings</li>													
+<li><input type="checkbox" name="chinese" value="chinese">Chinese</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="cantonese" value="cantonese">Cantonese</li>													
+<li><input type="checkbox" name="Dim Sum" value="dimsum">Dim Sum</li>													
+<li><input type="checkbox" name="Shanghainese" value="shanghainese">Shanghainese</li>													
+<li><input type="checkbox" name="Szechuan" value="szechuan">Szechuan</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="comfort Food" value="comfortfood">Comfort Food</li>													
+<li><input type="checkbox" name="creperies" value="creperies">Creperies</li>													
+<li><input type="checkbox" name="cuban" value="cuban">Cuban</li>													
+<li><input type="checkbox" name="czech/Slovakian" value="czechslovakian">Czech/Slovakian</li>													
+<li><input type="checkbox" name="Delis" value="delis">Delis</li>													
+<li><input type="checkbox" name="Diners" value="diners">Diners</li>													
+<li><input type="checkbox" name="Ethiopian" value="ethiopian">Ethiopian</li>													
+<li><input type="checkbox" name="Fast Food" value="hotdogs">Fast Food</li>													
+<li><input type="checkbox" name="Filipino" value="filipino">Filipino</li>													
+<li><input type="checkbox" name="Fish & Chips" value="fishnchips">Fish & Chips</li>													
+<li><input type="checkbox" name="Fondue" value="fondue">Fondue</li>													
+<li><input type="checkbox" name="Food Court" value="food_court">Food Court</li>													
+<li><input type="checkbox" name="Food Stands" value="foodstands">Food Stands</li>													
+<li><input type="checkbox" name="French" value="french">French</li>													
+<li><input type="checkbox" name="Gastropubs" value="gastropubs">Gastropubs</li>													
+<li><input type="checkbox" name="German" value="german">German</li>													
+<li><input type="checkbox" name="Gluten-Free" value="gluten_free">Gluten-Free</li>													
+<li><input type="checkbox" name="Greek" value="greek">Greek</li>													
+<li><input type="checkbox" name="Halal" value="halal">Halal</li>													
+<li><input type="checkbox" name="Hawaiian" value="hawaiian">Hawaiian</li>													
+<li><input type="checkbox" name="Himalayan/Nepalese" value="himalayan">Himalayan/Nepalese</li>													
+<li><input type="checkbox" name="Hot Dogs" value="hotdog">Hot Dogs</li>													
+<li><input type="checkbox" name="Hot Pot" value="hotpot">Hot Pot</li>													
+<li><input type="checkbox" name="Hungarian" value="hungarian">Hungarian</li>													
+<li><input type="checkbox" name="Iberian" value="iberian">Iberian</li>													
+<li><input type="checkbox" name="Indian" value="indpak">Indian</li>													
+<li><input type="checkbox" name="Indonesian" value="indonesian">Indonesian</li>													
+<li><input type="checkbox" name="Irish" value="irish">Irish</li>													
+<li><input type="checkbox" name="Italian" value="italian">Italian</li>													
+<li><input type="checkbox" name="Japanese" value="japanese">Japanese</li>													
+<li><input type="checkbox" name="Korean" value="korean">Korean</li>													
+<li><input type="checkbox" name="Kosher" value="kosher">Kosher</li>													
+<li><input type="checkbox" name="Laotian" value="laotian">Laotian</li>													
+<li><input type="checkbox" name="Latin American" value="latin">Latin American</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="colombian" value="colombian">Colombian</li>													
+<li><input type="checkbox" name="Salvadoran" value="salvadoran">Salvadoran</li>													
+<li><input type="checkbox" name="Venezuelan" value="venezuelan">Venezuelan</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Live/Raw Food" value="raw_food">Live/Raw Food</li>													
+<li><input type="checkbox" name="Malaysian" value="malaysian">Malaysian</li>													
+<li><input type="checkbox" name="Mediterranean" value="mediterranean">Mediterranean</li>													
+<li><input type="checkbox" name="Mexican" value="mexican">Mexican</li>													
+<li><input type="checkbox" name="Middle Eastern" value="mideastern">Middle Eastern</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Egyptian" value="egyptian">Egyptian</li>													
+<li><input type="checkbox" name="Lebanese" value="lebanese">Lebanese</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Modern European" value="modern_european">Modern European</li>													
+<li><input type="checkbox" name="Mongolian" value="mongolian">Mongolian</li>													
+<li><input type="checkbox" name="Moroccan" value="moroccan">Moroccan</li>													
+<li><input type="checkbox" name="Pakistani" value="pakistani">Pakistani</li>													
+<li><input type="checkbox" name="Persian/Iranian" value="persian">Persian/Iranian</li>													
+<li><input type="checkbox" name="Peruvian" value="peruvian">Peruvian</li>													
+<li><input type="checkbox" name="Pizza" value="pizza">Pizza</li>													
+<li><input type="checkbox" name="Polish" value="polish">Polish</li>													
+<li><input type="checkbox" name="Portuguese" value="portuguese">Portuguese</li>													
+<li><input type="checkbox" name="Russian" value="russian">Russian</li>													
+<li><input type="checkbox" name="Salad" value="salad">Salad</li>													
+<li><input type="checkbox" name="Sandwiches" value="sandwiches">Sandwiches</li>													
+<li><input type="checkbox" name="Scandinavian" value="scandinavian">Scandinavian</li>													
+<li><input type="checkbox" name="Scottish" value="scottish">Scottish</li>													
+<li><input type="checkbox" name="Seafood" value="seafood">Seafood</li>													
+<li><input type="checkbox" name="Singaporean" value="singaporean">Singaporean</li>													
+<li><input type="checkbox" name="Soul Food" value="soulfood">Soul Food</li>													
+<li><input type="checkbox" name="Soup" value="soup">Soup</li>													
+<li><input type="checkbox" name="Southern" value="southern">Southern</li>													
+<li><input type="checkbox" name="Spanish" value="spanish">Spanish</li>													
+<li><input type="checkbox" name="Steakhouses" value="steak">Steakhouses</li>													
+<li><input type="checkbox" name="Sushi Bars" value="sushi">Sushi Bars</li>													
+<li><input type="checkbox" name="Taiwanese" value="taiwanese">Taiwanese</li>													
+<li><input type="checkbox" name="Tapas Bars" value="tapas">Tapas Bars</li>													
+<li><input type="checkbox" name="Tapas/Small Plates" value="tapasmallplates">Tapas/Small Plates</li>													
+<li><input type="checkbox" name="Tex-Mex" value="tex-mex">Tex-Mex</li>													
+<li><input type="checkbox" name="Thai" value="thai">Thai</li>													
+<li><input type="checkbox" name="Turkish" value="turkish">Turkish</li>													
+<li><input type="checkbox" name="Ukrainian" value="ukrainian">Ukrainian</li>													
+<li><input type="checkbox" name="Vegan" value="vegan">Vegan</li>													
+<li><input type="checkbox" name="Vegetarian" value="vegetarian">Vegetarian</li>													
+<li><input type="checkbox" name="Vietnamese" value="vietnamese">Vietnamese</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Shopping" value="shopping">Shopping</li>													
+			<ul>
+												
+						<li><input type="checkbox" name="Adult" value="adult">Adult</li>													
+<li><input type="checkbox" name="Antiques" value="antiques">Antiques</li>													
+<li><input type="checkbox" name="Art Galleries" value="galleries">Art Galleries</li>													
+<li><input type="checkbox" name="Arts & Crafts" value="artsandcrafts">Arts & Crafts</li>													
+		<ul>
+													
+					<li><input type="checkbox" name="Art Supplies" value="artsupplies">Art Supplies</li>													
+<li><input type="checkbox" name="cards & Stationery" value="stationery">Cards & Stationery</li>													
+<li><input type="checkbox" name="costumes" value="costumes">Costumes</li>													
+<li><input type="checkbox" name="Fabric Stores" value="fabricstores">Fabric Stores</li>													
+<li><input type="checkbox" name="Framing" value="framing">Framing</li>													
+													
+		</ul>
+													
+<li><input type="checkbox" name="Auction Houses" value="auctionhouses">Auction Houses</li>													
+<li><input type="checkbox" name="Baby Gear & Furniture" value="baby_gear">Baby Gear & Furniture</li>													
+<li><input type="checkbox" name="Bespoke Clothing" value="bespoke">Bespoke Clothing</li>													
+<li><input type="checkbox" name="Books, Mags, Music & Video" value="media">Books, Mags, Music & Video</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Bookstores" value="bookstores">Bookstores</li>													
+<li><input type="checkbox" name="comic Books" value="comicbooks">Comic Books</li>													
+<li><input type="checkbox" name="Music & DVDs" value="musicvideo">Music & DVDs</li>													
+<li><input type="checkbox" name="Newspapers & Magazines" value="mags">Newspapers & Magazines</li>													
+<li><input type="checkbox" name="Videos & Video Game Rental" value="videoandgames">Videos & Video Game Rental</li>													
+<li><input type="checkbox" name="Vinyl Records" value="vinyl_records">Vinyl Records</li>													
+												
+			</ul>
+													
+<li><input type="checkbox" name="Bridal" value="bridal">Bridal</li>													
+<li><input type="checkbox" name="computers" value="computers">Computers</li>													
+<li><input type="checkbox" name="cosmetics & Beauty Supply" value="cosmetics">Cosmetics & Beauty Supply</li>													
+<li><input type="checkbox" name="Department Stores" value="deptstores">Department Stores</li>													
+<li><input type="checkbox" name="Discount Store" value="discountstore">Discount Store</li>													
+<li><input type="checkbox" name="Drugstores" value="drugstores">Drugstores</li>													
+<li><input type="checkbox" name="Electronics" value="electronics">Electronics</li>													
+<li><input type="checkbox" name="Eyewear & Opticians" value="opticians">Eyewear & Opticians</li>													
+<li><input type="checkbox" name="Fashion" value="fashion">Fashion</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Accessories" value="accessories">Accessories</li>													
+<li><input type="checkbox" name="children's Clothing" value="childcloth">Children's Clothing</li>													
+<li><input type="checkbox" name="Department Stores" value="deptstores">Department Stores</li>													
+<li><input type="checkbox" name="Formal Wear" value="formalwear">Formal Wear</li>													
+<li><input type="checkbox" name="Hats" value="hats">Hats</li>													
+<li><input type="checkbox" name="Leather Goods" value="leather">Leather Goods</li>													
+<li><input type="checkbox" name="Lingerie" value="lingerie">Lingerie</li>													
+<li><input type="checkbox" name="Maternity Wear" value="maternity">Maternity Wear</li>													
+<li><input type="checkbox" name="Men's Clothing" value="menscloth">Men's Clothing</li>													
+<li><input type="checkbox" name="Plus Size Fashion" value="plus_size_fashion">Plus Size Fashion</li>													
+<li><input type="checkbox" name="Shoe Stores" value="shoes">Shoe Stores</li>													
+<li><input type="checkbox" name="Sports Wear" value="sportswear">Sports Wear</li>													
+<li><input type="checkbox" name="Surf Shop" value="surfshop">Surf Shop</li>													
+<li><input type="checkbox" name="Swimwear" value="swimwear">Swimwear</li>													
+<li><input type="checkbox" name="Used, Vintage & Consignment" value="vintage">Used, Vintage & Consignment</li>													
+<li><input type="checkbox" name="Women's Clothing" value="womenscloth">Women's Clothing</li>													
+													
+	</ul>
+													
+<li><input type="checkbox" name="Fireworks" value="fireworks">Fireworks</li>													
+<li><input type="checkbox" name="Flea Markets" value="fleamarkets">Flea Markets</li>													
+<li><input type="checkbox" name="Flowers & Gifts" value="flowers">Flowers & Gifts</li>													
+			<ul>
+													
+				<li><input type="checkbox" name="cards & Stationery" value="stationery">Cards & Stationery</li>													
+<li><input type="checkbox" name="Florists" value="florists">Florists</li>													
+<li><input type="checkbox" name="Gift Shops" value="giftshops">Gift Shops</li>													
+													
+	</ul>
+													
+<li><input type="checkbox" name="Golf Equipment Shops" value="golfshops">Golf Equipment Shops</li>													
+<li><input type="checkbox" name="Guns & Ammo" value="guns_and_ammo">Guns & Ammo</li>													
+<li><input type="checkbox" name="Hobby Shops" value="hobbyshops">Hobby Shops</li>													
+<li><input type="checkbox" name="Home & Garden" value="homeandgarden">Home & Garden</li>													
+			<ul>
+													
+					<li><input type="checkbox" name="Appliances" value="appliances">Appliances</li>													
+<li><input type="checkbox" name="Furniture Stores" value="furniture">Furniture Stores</li>													
+<li><input type="checkbox" name="Hardware Stores" value="hardware">Hardware Stores</li>													
+<li><input type="checkbox" name="Home Decor" value="homedecor">Home Decor</li>													
+<li><input type="checkbox" name="Hot Tub & Pool" value="hottubandpool">Hot Tub & Pool</li>													
+<li><input type="checkbox" name="Kitchen & Bath" value="kitchenandbath">Kitchen & Bath</li>													
+<li><input type="checkbox" name="Mattresses" value="mattresses">Mattresses</li>													
+<li><input type="checkbox" name="Nurseries & Gardening" value="gardening">Nurseries & Gardening</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Jewelry" value="jewelry">Jewelry</li>													
+<li><input type="checkbox" name="Knitting Supplies" value="knittingsupplies">Knitting Supplies</li>													
+<li><input type="checkbox" name="Luggage" value="luggage">Luggage</li>													
+<li><input type="checkbox" name="Medical Supplies" value="medicalsupplies">Medical Supplies</li>													
+<li><input type="checkbox" name="Mobile Phones" value="mobilephones">Mobile Phones</li>													
+<li><input type="checkbox" name="Motorcycle Gear" value="motorcyclinggear">Motorcycle Gear</li>													
+<li><input type="checkbox" name="Musical Instruments & Teachers" value="musicalinstrumentsandteachers">Musical Instruments & Teachers</li>													
+<li><input type="checkbox" name="Office Equipment" value="officeequipment">Office Equipment</li>													
+<li><input type="checkbox" name="Outlet Stores" value="outlet_stores">Outlet Stores</li>													
+<li><input type="checkbox" name="Pawn Shops" value="pawn">Pawn Shops</li>													
+<li><input type="checkbox" name="Personal Shopping" value="personal_shopping">Personal Shopping</li>													
+<li><input type="checkbox" name="Photography Stores & Services" value="photographystores">Photography Stores & Services</li>													
+<li><input type="checkbox" name="Pop-up Shops" value="popupshops">Pop-up Shops</li>													
+<li><input type="checkbox" name="Shopping Centers" value="shoppingcenters">Shopping Centers</li>													
+<li><input type="checkbox" name="Sporting Goods" value="sportgoods">Sporting Goods</li>													
+			<ul>
+													
+						<li><input type="checkbox" name="Bikes" value="bikes">Bikes</li>													
+<li><input type="checkbox" name="Golf Equipment" value="golfequipment">Golf Equipment</li>													
+<li><input type="checkbox" name="Outdoor Gear" value="outdoorgear">Outdoor Gear</li>													
+<li><input type="checkbox" name="Sports Wear" value="sportswear">Sports Wear</li>													
+													
+			</ul>
+													
+<li><input type="checkbox" name="Thrift Stores" value="thrift_stores">Thrift Stores</li>													
+<li><input type="checkbox" name="Tobacco Shops" value="tobaccoshops">Tobacco Shops</li>													
+<li><input type="checkbox" name="Toy Stores" value="toys">Toy Stores</li>													
+<li><input type="checkbox" name="Trophy Shops" value="trophyshops">Trophy Shops</li>													
+<li><input type="checkbox" name="Uniforms" value="uniforms">Uniforms</li>													
+<li><input type="checkbox" name="Watches" value="watches">Watches</li>													
+<li><input type="checkbox" name="Wholesale Stores" value="wholesale_stores">Wholesale Stores</li>													
+<li><input type="checkbox" name="Wigs" value="wigs">Wigs</li>													
+													
+			</ul>
+													
+													
+	</ul>
