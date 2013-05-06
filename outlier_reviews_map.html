@@ -52,12 +52,10 @@
 						}
 						
 
-
-
-if(map_options.Restaurants.checked && results.features[i].geometry.categories.indexOf("Restaurants") > -1)
-{
-	var image = "markers/pink_MarkerR.png";
-}
+						if (getUrlParam("Restaurants") != null && results.features[i].geometry.categories.indexOf("Restaurants") > -1) 
+						{
+							var image = "markers/pink_MarkerR.png";
+						}
 						var marker = new google.maps.Marker({
 							position: latLng,
 							map: map,
