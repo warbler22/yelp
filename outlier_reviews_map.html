@@ -35,7 +35,7 @@
 			var infowindow = new google.maps.InfoWindow({
 				maxWidth: 200
 			});
-			
+
 
 
         	function addInfo(marker, message) {
@@ -50,370 +50,130 @@
 			window.eqfeed_callback = function(results) {
 				for (var i = 0; i < results.features.length; i++) {
 					{
-						/*var upper;
-						if(getUrlParam("upper") != null)
-						{
-							upper = true;
-						}
-						else
-						{
-							upper = false;
-						}
-						*/
 
 
-						if(results.features[i].geometry.upper) {
-						if (getUrlParam("Restaurants") != null && results.features[i].geometry.categories.indexOf("Restaurants") > -1) 
+						var shouldAddMarker = false;
+
+						if (   (getUrlParam("upper") != null && results.features[i].geometry.upper)
+							|| (getUrlParam("lower") != null && !results.features[i].geometry.upper)) {
+						if (getUrlParam("Restaurants") != null && results.features[i].geometry.categories.indexOf("Restaurants") > -1)
 						{
 							var image = "markers/blue_MarkerR.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
-
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							}
+							shouldAddMarker = true;
+						}
 
 
-						if (getUrlParam("Active") != null && results.features[i].geometry.categories.indexOf("Active Life") > -1) 
+						if (getUrlParam("Active") != null && results.features[i].geometry.categories.indexOf("Active Life") > -1)
 						{
 							var image = "markers/brown_MarkerA.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+						shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						if (getUrlParam("Arts") != null && results.features[i].geometry.categories.indexOf("Arts & Entertainment") > -1) 
+						if (getUrlParam("Arts") != null && results.features[i].geometry.categories.indexOf("Arts & Entertainment") > -1)
 						{
 							var image = "markers/darkgreen_MarkerA.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						if (getUrlParam("Automotive") != null && results.features[i].geometry.categories.indexOf("Automotive") > -1) 
+						if (getUrlParam("Automotive") != null && results.features[i].geometry.categories.indexOf("Automotive") > -1)
 						{
 							var image = "markers/green_MarkerA.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						if (getUrlParam("Beauty") != null && results.features[i].geometry.categories.indexOf("Beauty & Spas") > -1) 
+						if (getUrlParam("Beauty") != null && results.features[i].geometry.categories.indexOf("Beauty & Spas") > -1)
 						{
 							var image = "markers/orange_MarkerB.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
-
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
+							shouldAddMarker = true;
 						}
-						
-						
-						if (getUrlParam("Event") != null && results.features[i].geometry.categories.indexOf("Event Planning & Services") > -1) 
+
+
+						if (getUrlParam("Event") != null && results.features[i].geometry.categories.indexOf("Event Planning & Services") > -1)
 						{
 							var image = "markers/pink_MarkerE.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						
-						if (getUrlParam("Food") != null && results.features[i].geometry.categories.indexOf("Food") > -1) 
+
+						if (getUrlParam("Food") != null && results.features[i].geometry.categories.indexOf("Food") > -1)
 						{
 							var image = "markers/red_MarkerF.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						if (getUrlParam("Health") != null && results.features[i].geometry.categories.indexOf("Health & Medical") > -1) 
+						if (getUrlParam("Health") != null && results.features[i].geometry.categories.indexOf("Health & Medical") > -1)
 						{
 							var image = "markers/yellow_MarkerH.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						if (getUrlParam("Home") != null && results.features[i].geometry.categories.indexOf("Home Services") > -1) 
+						if (getUrlParam("Home") != null && results.features[i].geometry.categories.indexOf("Home Services") > -1)
 						{
 							var image = "markers/blue_MarkerH.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						if (getUrlParam("Hotels") != null && results.features[i].geometry.categories.indexOf("Hotels & Travel") > -1) 
+						if (getUrlParam("Hotels") != null && results.features[i].geometry.categories.indexOf("Hotels & Travel") > -1)
 						{
 							var image = "markers/brown_MarkerH.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						
-						if (getUrlParam("Local") != null && results.features[i].geometry.categories.indexOf("Local Services") > -1) 
+
+						if (getUrlParam("Local") != null && results.features[i].geometry.categories.indexOf("Local Services") > -1)
 						{
 							var image = "markers/green_MarkerL.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						
-						if (getUrlParam("Nightlife") != null && results.features[i].geometry.categories.indexOf("Nightlife") > -1) 
+
+						if (getUrlParam("Nightlife") != null && results.features[i].geometry.categories.indexOf("Nightlife") > -1)
 						{
 							var image = "markers/paleblue_MarkerN.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						if (getUrlParam("Pets") != null && results.features[i].geometry.categories.indexOf("Pets") > -1) 
+						if (getUrlParam("Pets") != null && results.features[i].geometry.categories.indexOf("Pets") > -1)
 						{
 							var image = "markers/pink_MarkerP.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
+							shouldAddMarker = true;
 
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
 						}
-						
-						
-						
-						if (getUrlParam("Shopping") != null && results.features[i].geometry.categories.indexOf("Shopping") > -1) 
+
+
+
+						if (getUrlParam("Shopping") != null && results.features[i].geometry.categories.indexOf("Shopping") > -1)
 						{
 							var image = "markers/brown_MarkerS.png";
-							var coords = results.features[i].geometry.coordinates;
-							var latLng = new google.maps.LatLng(coords[1],coords[0]);
-
-							var marker = new google.maps.Marker({
-							position: latLng,
-							map: map,
-							icon: image
-							});
-						
-							var busName = results.features[i].geometry.business_name;
-							var busStars = results.features[i].geometry.business_stars;
-							var OutStars = results.features[i].geometry.review_stars;
-							var reviewText = results.features[i].geometry.review_text;
-
-							//display infoWindows
-							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
-							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
-							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
-							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
-							
+							shouldAddMarker = true;
 						}
-						
+
 }
 
 
+						if (shouldAddMarker) {
+							var coords = results.features[i].geometry.coordinates;
+							var latLng = new google.maps.LatLng(coords[1],coords[0]);
 
-						
+							var marker = new google.maps.Marker({
+							position: latLng,
+							map: map,
+							icon: image
+							});
+
+							var busName = results.features[i].geometry.business_name;
+							var busStars = results.features[i].geometry.business_stars;
+							var OutStars = results.features[i].geometry.review_stars;
+							var reviewText = results.features[i].geometry.review_text;
+
+							//display infoWindows
+							addInfo(marker, '<p><center><font face=arial>'+busName+'</font></p>' +
+							'<p><font face=helvetica size="1">Business Stars: '+busStars+'<br>' +
+							'Outlier Review Stars: '+OutStars+'</font></center></p>' +
+							'<p><font face=helvetica size="2">'+reviewText+'</font></p>');
+						}
+
+
 					}
 				}
 			}
