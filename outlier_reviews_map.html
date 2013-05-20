@@ -14,12 +14,16 @@
 			src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=visualization">
 		</script>
 		<script>
+
+		// Enable the visual refresh
+google.maps.visualRefresh = true;
+
 			var map;
 
 			function initialize() {
 				var mapOptions = {
 					zoom: 10,
-					center: new google.maps.LatLng(33.581867,-112.241596),
+					center: new google.maps.LatLng(33.4801249,-111.9846519),
 					mapTypeId: google.maps.MapTypeId.ROADMAP
 				};
 				map = new google.maps.Map(document.getElementById('map_canvas'),
@@ -77,45 +81,45 @@
 						}
 						if (getUrlParam("Automotive") != null && results.features[i].geometry.categories.indexOf("Automotive") > -1)
 						{
-							var image = "markers/green_MarkerA.png";
+							var image = "markers/orange_MarkerA.png";
 							shouldAddMarker = true;
 
 						}
 						if (getUrlParam("Beauty") != null && results.features[i].geometry.categories.indexOf("Beauty & Spas") > -1)
 						{
-							var image = "markers/orange_MarkerB.png";
+							var image = "markers/green_MarkerB.png";
 							shouldAddMarker = true;
 						}
 
 
 						if (getUrlParam("Event") != null && results.features[i].geometry.categories.indexOf("Event Planning & Services") > -1)
 						{
-							var image = "markers/pink_MarkerE.png";
+							var image = "markers/paleblue_MarkerE.png";
 							shouldAddMarker = true;
 
 						}
 
 						if (getUrlParam("Food") != null && results.features[i].geometry.categories.indexOf("Food") > -1)
 						{
-							var image = "markers/red_MarkerF.png";
+							var image = "markers/pink_MarkerF.png";
 							shouldAddMarker = true;
 
 						}
 						if (getUrlParam("Health") != null && results.features[i].geometry.categories.indexOf("Health & Medical") > -1)
 						{
-							var image = "markers/yellow_MarkerH.png";
+							var image = "markers/red_MarkerH.png";
 							shouldAddMarker = true;
 
 						}
 						if (getUrlParam("Home") != null && results.features[i].geometry.categories.indexOf("Home Services") > -1)
 						{
-							var image = "markers/blue_MarkerH.png";
+							var image = "markers/purple_MarkerH.png";
 							shouldAddMarker = true;
 
 						}
 						if (getUrlParam("Hotels") != null && results.features[i].geometry.categories.indexOf("Hotels & Travel") > -1)
 						{
-							var image = "markers/brown_MarkerH.png";
+							var image = "markers/yellow_MarkerH.png";
 							shouldAddMarker = true;
 
 						}
@@ -144,7 +148,7 @@
 
 						if (getUrlParam("Shopping") != null && results.features[i].geometry.categories.indexOf("Shopping") > -1)
 						{
-							var image = "markers/brown_MarkerS.png";
+							var image = "markers/yellow_MarkerS.png";
 							shouldAddMarker = true;
 						}
 

@@ -1,0 +1,9 @@
+eqfeed_callback({"features":[
+{"geometry":{"coordinates":[	-112.241596	,	33.581867	],"stars":	5	}},
+{"geometry":{"coordinates":[	-112.105933	,	33.604054	],"stars":	5	}},
+{"geometry":{"coordinates":[	-112.0739333	,	33.4605258	],"stars":	5	}},
+{"geometry":{"coordinates":[	-112.0853773	,	33.3922099	],"stars":	3.5	}},
+{"geometry":{"coordinates":[	-112.0593819	,	33.5092237	],"stars":	4	}},
+{"geometry":{"coordinates":[	-112.1087259	,	33.5531166	],"stars":	5	}},
+{"geometry":{"coordinates":[	-111.925638	,	33.49817	],"stars":	2.5	}}
+]});

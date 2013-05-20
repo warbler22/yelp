@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<script>
+			function getUrlParam(name) {
+				if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(window.location.search))
+					return decodeURIComponent(name[1]);
+			}
+		</script>
+
+		<style>
+			html, body, #map_canvas { margin: 0; padding: 0; height: 100%; }
+		</style>
+		<script
+
+			src="http://maps.googleapis.com/maps/api/js?libraries=geometry,visualization&sensor=false">
+		</script>
+		<script>
+
+		// Enable the visual refresh
+
+
+google.maps.visualRefresh = true;
+
+			var map;
+
+			function initialize() {
+				var mapOptions = {
+					zoom: 10,
+					center: new google.maps.LatLng(33.581867,-112.241596),
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				};
+				map = new google.maps.Map(document.getElementById('map_canvas'),
+							mapOptions);
+
+				// Create a <script> tag and set the USGS URL as the source.
+				var script = document.createElement('script');
+				script.src = 'biz_stars_short.jsonp';
+				document.getElementsByTagName('head')[0].appendChild(script);
+			}
+
+
+			var infowindow = new google.maps.InfoWindow({
+				maxWidth: 200
+			});
+
+
+
+        	function addInfo(marker, message) {
+        		google.maps.event.addListener(marker, 'click', function() {
+				infowindow.setContent(message);
+				infowindow.open(map,marker);
+				});
+        	}
+
+			// Loop through the results array and place a marker for each
+			// set of coordinates.
+
+
+
+window.eqfeed_callback = function(results) {
+  var heatmapData = [];
+  for (var i = 0; i < results.features.length; i++) {
+  	if(results.features[i].geometry.stars == 4) {
+    var coords = results.features[i].geometry.coordinates;
+    var latLng = new google.maps.LatLng(coords[1], coords[0]);
+    heatmapData.push(latLng);
+  }
+}
+  var heatmap = new google.maps.visualization.HeatmapLayer({
+    data: heatmapData,
+    dissipating: false,
+    map: map
+  });
+}
+
+	</script>
+	</head>
+	<body onload="initialize()">
+		<div id="map_canvas"></div>
+	</body>
+</html>
